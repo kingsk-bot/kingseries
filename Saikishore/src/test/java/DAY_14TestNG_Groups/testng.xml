@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+  
+  <groups>
+          <run>
+              <include name="TestNG"/>
+              <include name="Google"/>
+              <exclude name="Fb"/>
+         </run>
+         </groups>     
+  
+  
+  
+  
+  
+    <classes>
+      <class name="DAY14_TestNG_Groups.TestNG_Group_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

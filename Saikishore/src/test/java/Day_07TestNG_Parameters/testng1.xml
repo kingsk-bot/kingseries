@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+//step1(singleinput)
+  <test thread-count="5" name="Test1">
+  
+  <parameter name="Browser"    value="Chrome"/>
+  <parameter name="TestURL"    value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="Username"   value="Admin"/>
+  <parameter name="Password"   value="admin123"/>
+  <parameter name="education_name"  value="BMW"/>
+  
+  <classes>
+   <class name="Day7_TestNG_Parameters.AddEducation_Test"/>
+   </classes>
+  </test> <!-- Test -->
+  
+//step2(multiple input)  
+  <test thread-count="5" name="Test2">
+  
+  <parameter name="Browser"    value="Chrome"/>
+  <parameter name="TestURL"    value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="Username"   value="Admin"/>
+  <parameter name="Password"   value="admin123"/>
+  <parameter name="education_name"  value="BMW1"/>
+  
+  <classes>
+   <class name="Day7_TestNG_Parameters.AddEducation_Test"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   
+  <test thread-count="5" name="Test3">
+  
+  <parameter name="Browser"    value="Chrome"/>
+  <parameter name="TestURL"    value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="Username"   value="Admin"/>
+  <parameter name="Password"   value="admin123"/>
+  <parameter name="education_name"  value="BMW3"/>
+  
+  <classes>
+   <class name="Day7_TestNG_Parameters.AddEducation_Test"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

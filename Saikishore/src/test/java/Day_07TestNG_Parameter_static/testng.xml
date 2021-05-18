@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+  <test thread-count="5" name="Test">
+  <parameter name="Browser"      value="Chrome"/>
+  <parameter name="TestURL"      value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="Username"      value="Admin"/>
+  <parameter name="Password"      value="admin123"/>
+  <parameter name="skillname"      value="BDM"/>
+  <parameter name="skilldescription"      value="BDM1"/>
+  
+  
+ 
+  
+  
+  <classes>
+  <class name="Day7_TestNG_Parameter_static.AddSkills_Test"/>
+  </classes>
+  
+  
+  
+  
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
